@@ -6,6 +6,7 @@ import { PdfInterfaceComponent } from './pdf-interface/pdf-interface.component';
 
 
 const routes: Routes = [
+  // { path: '', component: TestComponent },
   { path: 'test', component: TestComponent },
   { path: 'pdf-interface', component: PdfInterfaceComponent },
 ];
