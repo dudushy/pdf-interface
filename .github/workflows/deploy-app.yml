@@ -17,7 +17,7 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "deploy-app"
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
