@@ -43,7 +43,7 @@
       padding: 0.5%;
       padding-bottom: 1.5%;
       padding-right: 1.5%;
-      border: 1px dotted #000;
+      border: 1px dotted black;
       background-color: transparent;
       border-radius: 50%;
       opacity: 0.5;
@@ -51,16 +51,22 @@
 
     button:hover {
       opacity: 1;
-      background-color: transparentize(#000, 0.8);
+      background-color: transparentize(black, 0.8);
     }
 
     button:active {
-      border: 1px solid #000;
+      border: 1px solid black;
     }
 
     button[isOn] {
       opacity: 1;
-      background-color: #000;
+      background-color: black;
+    }
+
+    button[showMe] {
+      opacity: 1;
+      background: linear-gradient(red, green, blue);
+      border: 1px solid white;
     }
 
     #item1-option1 {
@@ -70,6 +76,42 @@
     #item1-option2 {
       top: 7%;
       left: 18.2%;
+    }
+
+    #item2-option1 {
+      top: 20%;
+      left: 14.4%;
+    }
+    #item2-option2 {
+      top: 20%;
+      left: 18.2%;
+    }
+
+    #item3-option1 {
+      top: 33.2%;
+      left: 16.5%;
+    }
+    #item3-option2 {
+      top: 33.2%;
+      left: 19%;
+    }
+
+    #item4-option1 {
+      top: 41.4%;
+      left: 16.9%;
+    }
+    #item4-option2 {
+      top: 41.4%;
+      left: 19.4%;
+    }
+
+    #item5-option1 {
+      top: 50.55%;
+      left: 14.7%;
+    }
+    #item5-option2 {
+      top: 50.55%;
+      left: 18.45%;
     }
   }
 }
