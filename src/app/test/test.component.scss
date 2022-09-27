@@ -40,20 +40,36 @@
     button {
       position: absolute;
       // margin: 1%;
-      padding: 1%;
-      padding-bottom: 2%;
-      padding-right: 2%;
-      border: 1px solid lime;
-      background-color: yellow;
+      padding: 0.5%;
+      padding-bottom: 1.5%;
+      padding-right: 1.5%;
+      border: 1px dotted #000;
+      background-color: transparent;
+      border-radius: 50%;
+      opacity: 0.5;
+    }
+
+    button:hover {
+      opacity: 1;
+      background-color: transparentize(#000, 0.8);
+    }
+
+    button:active {
+      border: 1px solid #000;
+    }
+
+    button[isOn] {
+      opacity: 1;
+      background-color: #000;
     }
 
     #item1-option1 {
-      top: 6%;
-      left: 14%;
+      top: 7%;
+      left: 14.4%;
     }
     #item1-option2 {
-      top: 6%;
-      left: 17.8%;
+      top: 7%;
+      left: 18.2%;
     }
   }
 }

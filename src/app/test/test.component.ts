@@ -41,10 +41,16 @@ export class TestComponent implements OnInit {
     const className = event.target.className;
     console.log(`[${this.title}#updateItem] className`, className);
 
-    const allItems = document.getElementsByClassName(className);
+    const allItems = document.getElementsByClassName(className) as HTMLCollectionOf<HTMLElement>;
     console.log(`[${this.title}#updateItem] allItems`, allItems);
 
-    //TODO: toggle options
+    for (const [index, item] of Object.entries(allItems)) {
+      console.log(`[${this.title}#updateItem] index: ${index} | item: `, item);
+
+      item.removeAttribute('isOn');
+    }
+
+    event.target.setAttribute('isOn', '');
   }
 
   updateMaskSize() {
