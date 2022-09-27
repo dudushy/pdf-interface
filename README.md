@@ -1,3 +1,4 @@
+[![pages-build-deployment](https://github.com/dudushy/pdf-interface/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/dudushy/pdf-interface/actions/workflows/pages/pages-build-deployment)
 # [pdf-interface](https://dudushy.github.io/pdf-interface/)
 Pdf dynamic interface.
 > version 14.1.2
