@@ -1,3 +1,8 @@
-<p>test works!</p>
+<div id="content">
+  <img id="img" (load)="updateMaskSize()">
 
-<button (click)="redirectTo('pdf-interface', title)">pdf-interface</button>
+  <div id="mask">
+    <button class="item1" id="item1-option1" (click)="updateItem($event)"></button>
+    <button class="item1" id="item1-option2" (click)="updateItem($event)"></button>
+  </div>
+</div>
