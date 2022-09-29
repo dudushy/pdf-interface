@@ -10,15 +10,12 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'AppComponent';
-  base_url = 'test';
 
   constructor(
     private router: Router,
     private cdr: ChangeDetectorRef,
   ) {
     console.log(`[${this.title}#constructor]`);
-
-    this.redirectTo(this.base_url, this.title);
   }
 
   updateView(from: string) {
