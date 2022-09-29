@@ -1,0 +1,250 @@
+// #content {
+//   height: 100%;
+//   width: 100%;
+
+//   img {
+//     height: 100%;
+//     width: 100%;
+//   }
+
+//   input {
+//     position: fixed;
+//   }
+
+//   #apple {
+//     top: 8%;
+//     left: 15%;
+//   }
+
+//   #orange {
+//     top: 8%;
+//     left: 18.5%;
+//   }
+// }
+
+#content {
+  position: relative;
+  text-align: center;
+  // overflow: hidden;
+
+  #img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    button {
+      position: absolute;
+      // margin: 1%;
+      padding: 0.5%;
+      padding-bottom: 1.5%;
+      padding-right: 1.5%;
+      border: 1px dotted black;
+      background-color: transparent;
+      border-radius: 50%;
+      opacity: 0.5;
+    }
+
+    button:hover {
+      opacity: 1;
+      background-color: transparentize(black, 0.8);
+    }
+
+    button:active {
+      border: 1px solid black;
+    }
+
+    button[isOn] {
+      opacity: 1;
+      background-color: black;
+    }
+
+    *[showMe] {
+      opacity: 1;
+      background: linear-gradient(red, green, blue);
+      border: 1px solid white;
+    }
+
+    #item1-option1 {
+      top: 7%;
+      left: 14.4%;
+    }
+    #item1-option2 {
+      top: 7%;
+      left: 18.2%;
+    }
+
+    #item2-option1 {
+      top: 20%;
+      left: 14.4%;
+    }
+    #item2-option2 {
+      top: 20%;
+      left: 18.2%;
+    }
+
+    #item3-option1 {
+      top: 33.2%;
+      left: 16.5%;
+    }
+    #item3-option2 {
+      top: 33.2%;
+      left: 19%;
+    }
+
+    #item4-option1 {
+      top: 41.4%;
+      left: 16.9%;
+    }
+    #item4-option2 {
+      top: 41.4%;
+      left: 19.4%;
+    }
+
+    #item5-option1 {
+      top: 50.55%;
+      left: 14.7%;
+    }
+    #item5-option2 {
+      top: 50.55%;
+      left: 18.45%;
+    }
+
+    #item6-option1 {
+      top: 17.65%;
+      left: 41%;
+    }
+    #item6-option2 {
+      top: 17.65%;
+      left: 46.33%;
+    }
+
+    #item7-option1 {
+      top: 25.5%;
+      left: 40.8%;
+    }
+    #item7-option2 {
+      top: 25.5%;
+      left: 46.15%;
+    }
+
+    #item8-option1 {
+      top: 34%;
+      left: 40%;
+    }
+    #item8-option2 {
+      top: 34.7%;
+      left: 46.3%;
+    }
+
+    #item9-option1 {
+      top: 43%;
+      left: 39.5%;
+    }
+    #item9-option2 {
+      top: 44.3%;
+      left: 46.65%;
+    }
+
+    #item10-option1 {
+      top: 52%;
+      left: 39.6%;
+    }
+    #item10-option2 {
+      top: 52.7%;
+      left: 46.75%;
+    }
+
+    #item11-option1 {
+      top: 62%;
+      left: 39.8%;
+    }
+    #item11-option2 {
+      top: 62.5%;
+      left: 46.8%;
+    }
+
+    #item12-option1 {
+      top: 15.6%;
+      left: 68.7%;
+    }
+    #item12-option2 {
+      top: 15.5%;
+      left: 71.8%;
+    }
+    #item12-option3 {
+      top: 15.7%;
+      left: 74.9%;
+    }
+
+    #item13-option1 {
+      top: 29.5%;
+      left: 68.35%;
+    }
+    #item13-option2 {
+      top: 29.5%;
+      left: 71.7%;
+    }
+    #item13-option3 {
+      top: 29.5%;
+      left: 74.95%;
+    }
+
+    #item14-option1 {
+      top: 37.9%;
+      left: 68.25%
+    }
+    #item14-option2 {
+      top: 37.9%;
+      left: 71.4%;
+    }
+    #item14-option3 {
+      top: 37.9%;
+      left: 74.65%;
+    }
+
+    #item15-option1 {
+      top: 44.7%;
+      left: 68%;
+    }
+    #item15-option2 {
+      top: 44.7%;
+      left: 71.6%;
+    }
+    #item15-option3 {
+      top: 44.7%;
+      left: 74.6%;
+    }
+
+    #item16-option1 {
+      top: 55.2%;
+      left: 67.75%;
+    }
+    #item16-option2 {
+      top: 55.2%;
+      left: 71.05%;
+    }
+    #item16-option3 {
+      top: 55.2%;
+      left: 74.6%;
+    }
+
+    #item17-option1 {
+      top: 65.9%;
+      left: 67.7%;
+    }
+    #item17-option2 {
+      top: 65.9%;
+      left: 70.9%;
+    }
+    #item17-option3 {
+      top: 65.9%;
+      left: 74.25%;
+    }
+  }
+}
